@@ -1,0 +1,46 @@
+.content{
+    background: #9C7BA6;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    box-shadow: 0 2px 10px 0 rgb(0, 0, 0);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.options-button {
+    border-radius: 25px;
+    background: #5F3473;
+    border: none;
+    height: 30px;
+    width: 200px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0 2px 10px 0 rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.options-div a{
+    color: white;
+}
+
+.options-button:hover{
+    box-shadow: 0 2px 10px 0 white;
+    background: #9C7BA6;
+}
+
